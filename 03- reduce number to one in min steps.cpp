@@ -5,6 +5,7 @@ const int inf = (int)1e9;
 
 int memo[1000];
 
+// Top down
 int reduceNo(int n){
 	if(n ==1 ) return 0;
 	int q1 = inf, q2 = inf, q3 = inf;
@@ -18,6 +19,8 @@ int reduceNo(int n){
 	return memo[n];
 }
 
+
+// Bottom up
 int reduceNo_DP(int n){
 	int dp[10000];
 	//setting the base case
