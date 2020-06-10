@@ -53,5 +53,11 @@
 <hr/>
 
 ## Rod cutting to maximize profit
+ * <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/06-%20rod%20cutting%20(recursion).cpp">Recursion</a>
+ * <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/06-%20rod%20cutting%20(memoization).cpp">Top down</a>
+ * <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/06-%20rod%20cutting%20(bottom%20up%20dp).cpp">Bottom up</a>
+
+<hr/>
+
 
 ## 
