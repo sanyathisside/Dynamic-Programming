@@ -33,6 +33,10 @@ int maxSumSpaceOpti(int a[], int n){
     return max_so_far;
 }
 
+// Special case that can be handled:
+// if array contains all negative elements
+// output the smallest negative element!
+
 
 int main(){
     int arr[]={-3,2,5-1,6,3,-2,7,-5,2};
