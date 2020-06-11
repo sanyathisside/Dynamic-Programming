@@ -35,7 +35,7 @@
 <hr/>
 
 ## <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/wine%20problem.cpp">Wine problem</a>
-*In one year you have to sell one bottle (from extreme last or first of the given array). Prices of bottle increases every year. (price*year)*
+*In one year you have to sell one bottle (from extreme last or first of the given array). Prices of bottle increases every year. (price x year)*
 
 <hr/>
 
@@ -44,11 +44,10 @@
 
 <hr/>
 
-## Ladder Problem
-
-
-
-
+## Ladder Problem //add code
+ * Top down
+ * Bottom up O(nk)
+ * Optimised O(n)
 
 <hr/>
 
@@ -59,5 +58,50 @@
 
 <hr/>
 
+## <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/09-longest%20common%20subsequence.cpp">Longest common subsequence</a>
 
-## 
+## <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/11-cell%20mitosis.cpp">Cell Mitosis</a>
+ * Break the problem into odd and even case.
+
+<hr/>
+
+## <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/13-mixtures.cpp">Mixtures</a>
+
+<hr/>
+
+## Friend's pairing problem
+ * Try to break down, and make a recurrence.
+ * f(N)= f(N-1) + ((N-1)C1 x f(N-2))
+
+<hr/>
+
+## Catalan Number
+*Count number of BST's that can be formed using n number of nodes numbered from 1 to n.*
+
+ * Any ith node can become the root node.
+ * Reference: https://www.youtube.com/watch?v=0s20L4-chDA
+ * Number of binary tree= n!* Number of BST.
+ * Number of unlabelled binary tree= same as BST.
+
+<hr/>
+
+## Optimal game strategy
+
+<hr/>
+
+## Grid based DP
+ * Common Variants:
+     * Finding the min/max cost path in a grid.
+     * Finding the number of ways to reach a particular position from a given starting point in 2D grid and so on.
+     
+ * ### Minimum cost path
+ * ### Rat and Elephant Ways
+     * Rat version:
+         * Recursive
+         * DP O(n^2)
+         * PnC O(n)
+     * Elephant version:
+         * DP O(n^3)
+     * <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/12-robot%20paths.cpp">Robot Paths</a>
+
+<hr/>
