@@ -17,6 +17,10 @@ int maxSum(int a[], int n){
     return max_so_far;
 }
 
+
+//space optimized
+// kadane's algo
+
 int maxSumSpaceOpti(int a[], int n){
     int current_sum=0;
     int max_so_far=0;
