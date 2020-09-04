@@ -105,3 +105,10 @@
      * <a href="https://github.com/sanya2508/Dynamic-Programming/blob/master/12-robot%20paths.cpp">Robot Paths</a>
 
 <hr/>
+
+
+## Longest Increasing Subsequence
+ * DP-1 (Standard) --> `O(n^2)`
+ * DP-2 (Tricky) --> `O(n^2)`
+ * DP-2 with binary search --> `O(nlogn)`
+ * DP with segment trees --> `O(nlogn)`
